@@ -1,0 +1,54 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;/*Horizontal center*/
+    align-items: center; /*Vertical Center*/
+    background-color: #f0f2f5;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px; /*limiting width*/
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /*soft shadow for visibility*/
+    border-radius: 8px; /*Rounded corners*/
+}
+
+.Container{
+    width: 100%
+  }
+
+h2{
+    text-align : center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /*Ensures padding and border are inside the total width*/
+}
+
+ button{
+    width:100%;
+    padding: 10px;
+    background-color: #246c33; /* Button Color*/
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #143c2b; /*Darker green on hover*/
+}
